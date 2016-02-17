@@ -165,7 +165,8 @@ console.log(spanishColor('azul'));
 var foo = "bar";
 
 // Put your answer below -------------------------
-
+var foo;
+foo = "bar";
 
 // -----------------------------------------------
 
