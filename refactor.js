@@ -86,7 +86,7 @@ letter = "z";
 console.log("The letter is", letter);
 
 // Put your answer below -------------------------
-
+// The setTimeout function has a delay of 1 second so the answer is c. "z" will log first and then "y".  "x" is just a random letter thrown in at the front.
 
 // -----------------------------------------------
 
