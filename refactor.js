@@ -282,7 +282,16 @@ var accelerate = function(amount) {
 };
 
 // Put your answer below -------------------------
-
+//speed is NaN isn't defined//
+var accelerate = function(amount) {
+  // speed += amount;
+  if(amount == undefined){
+   var amount = 1;
+   speed += amount;
+  }else {
+  speed += amount;
+  }
+};
 
 // -----------------------------------------------
 
