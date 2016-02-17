@@ -57,7 +57,7 @@ setTimeout(function(){
   alert("Hello, World!");
 }, 2000);
 
-console.assert(function(alert("Hello World!"));
+
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -145,7 +145,7 @@ var spanishColor = function(colorName) {
 // Put your answer below -------------------------
 var spanishColor = function(colorName){
 var colors = {rojo:"#ff0000" ,blanco:"#ffffff" ,azul:"#0000ff" ,verde:"#00ff00" ,negro:"#000000"};
-return colors[colorsName];
+return colors[colorName];
 };
 console.log(spanishColor('azul'));
 
@@ -188,6 +188,10 @@ var callTenTimes = function(callback) {
 };
 
 // Put your answer below -------------------------
+var callNtimes = function(callback, number){
+  var range = _.range(number);
+  _.each(range, number);
+};
 
 
 // -----------------------------------------------
